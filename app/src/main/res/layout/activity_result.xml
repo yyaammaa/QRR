@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/activity_result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#ff333333"
+        android:textSize="14sp"
+        tools:text="https://www.amazon.co.jp/gp/product/B000FQMM50/ref=s9u_qpp_gw_i2?ie=UTF8&amp;pd_rd_i=B000FQMM50&amp;pd_rd_r=483243c2-9478-11e8-b791-2fd9fe95f534&amp;pd_rd_w=BqBSW&amp;pd_rd_wg=AMtzF&amp;pf_rd_m=AN1VRQENFRJN5&amp;pf_rd_s=&amp;pf_rd_r=QSV9DS9RPY7MBHVZBRD0&amp;pf_rd_t=36701&amp;pf_rd_p=a3a1572c-f1ee-4418-98a4-c2d0a69c6cb8&amp;pf_rd_i=desktop"/>
+
+    <Button
+        android:id="@+id/activity_result_share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Share"/>
+
+    <Button
+        android:id="@+id/activity_result_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="View"/>
+
+</LinearLayout>
